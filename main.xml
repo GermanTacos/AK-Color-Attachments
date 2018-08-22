@@ -135,6 +135,7 @@
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_wo_30"/>
 			<wpn_fps_ass_heffy_762_m_bake_10 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_wo_10"/>
 			<wpn_fps_ass_heffy_545_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_wo_30"/>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_wo_30"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -150,6 +151,7 @@
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_pl_30"/>
 			<wpn_fps_ass_heffy_762_m_bake_10 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_pl_10"/>
 			<wpn_fps_ass_heffy_545_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_pl_30"/>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -165,6 +167,7 @@
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_gr_30"/>
 			<wpn_fps_ass_heffy_762_m_bake_10 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_gr_10"/>
 			<wpn_fps_ass_heffy_545_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_gr_30"/>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -180,6 +183,7 @@
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fi_30"/>
 			<wpn_fps_ass_heffy_762_m_bake_10 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fi_10"/>
 			<wpn_fps_ass_heffy_545_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_fi_30"/>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fi_30"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -195,10 +199,22 @@
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fb_30"/>
 			<wpn_fps_ass_heffy_762_m_bake_10 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fb_10"/>
 			<wpn_fps_ass_heffy_545_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_fb_30"/>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fb_30"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_or" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0" concealment="-1"/>
+		<override>
+			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
+		</override>
+		<weapons>
 			<value_node value="wpn_fps_ass_heffy_556"/>
 		</weapons>
 		<pcs/>
@@ -627,6 +643,77 @@
 		<model           path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_fb_30"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_fb_30"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_fb_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_bl_30_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_bl_30_nm"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_bl_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_bl_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_bl_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_bl_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_bl_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_bl_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_wo_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_wo_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_wo_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_wo_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_wo_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_wo_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_wo_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_pl_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_pl_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_pl_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_gr_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_gr_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_gr_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fi_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fi_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fi_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fi_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fi_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fi_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fi_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fb_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fb_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_fb_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fb_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fb_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fb_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_fb_30"/>
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_or_30_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_or_30"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/bake_or_30_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
 		
 	</AddFiles>
 	
