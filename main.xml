@@ -6,7 +6,7 @@
 	
 	<!-- POLYMERS -->
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="furn_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_pl"/>
@@ -30,7 +30,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="furn_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_gr"/>
@@ -56,7 +56,7 @@
 	
 	<!-- WOODS -->
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_red" based_on="wpn_fps_upg_a_custom_free" type="furn_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_red" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_red"/>
@@ -75,7 +75,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="furn_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_ora"/>
@@ -94,7 +94,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="furn_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_lac"/>
@@ -115,7 +115,7 @@
 	
 	<!-- MAGAZINES -->
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_bl" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_bl" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0" concealment="1"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_bl_30"/>
@@ -130,7 +130,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_wo" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_wo" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_wo_30"/>
@@ -147,7 +147,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_pl" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_pl" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_pl_30"/>
@@ -164,7 +164,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_gr" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_gr" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_gr_30"/>
@@ -181,7 +181,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_fi" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_fi" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fi_30"/>
@@ -198,7 +198,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_fb" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_fb" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_762_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_762_mag_pts/wpn_fps_ass_heffy_762_m_bake_fb_30"/>
@@ -215,7 +215,7 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_or" based_on="wpn_fps_upg_a_custom_free" type="mag_color" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_mc_bake_or" based_on="wpn_fps_upg_a_custom_free" type="mag_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0" concealment="-1"/>
 		<override>
 			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_or_30"/>
