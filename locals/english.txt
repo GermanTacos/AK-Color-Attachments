@@ -1,16 +1,35 @@
 {
 
-	"bm_menu_furn_color"        : "Furniture Color",
-	"bm_menu_furn_color_plural" : "Furniture Colors",
-	"bm_menu_mag_color"         : "Magazine Color",
-	"bm_menu_mag_color_plural"  : "Magazine Colors",
+	"bm_menu_furn_color"             : "Furniture Color",
+	"bm_menu_furn_color_plural"      : "Furniture Colors",
+	"bm_menu_foregrip_zcolor"        : "Foregrip Color",
+	"bm_menu_foregrip_zcolor_plural" : "Foregrip Colors",
+	"bm_menu_grip_color"             : "Grip Color",
+	"bm_menu_grip_color_plural"      : "Grip Colors",
+	"bm_menu_stock_color"            : "Stock Color",
+	"bm_menu_stock_color_plural"     : "Stock Colors",
+	"bm_menu_mag_color"              : "Magazine Color",
+	"bm_menu_mag_color_plural"       : "Magazine Colors",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_fc_poly_pl" : "Plum Polymer",
-	"bm_wp_wpn_fps_ass_heffy_all_fc_poly_gr" : "Green Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_poly_pl"  : "Plum Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_poly_pl"  : "Plum Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_poly_pl"  : "Plum Polymer",
 	
-	"bm_wp_wpn_fps_ass_heffy_all_fc_wood_red" : "Red Wood Stain",
-	"bm_wp_wpn_fps_ass_heffy_all_fc_wood_ora" : "Orange Wood Stain",
-	"bm_wp_wpn_fps_ass_heffy_all_fc_wood_lac" : "Lacquer Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_poly_gr"  : "Green Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_poly_gr"  : "Green Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_poly_gr"  : "Green Polymer",
+	
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_wood_red" : "Red Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_wood_red" : "Red Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_wood_red" : "Red Wood Stain",
+	
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_wood_ora" : "Orange Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_wood_ora" : "Orange Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_wood_ora" : "Orange Wood Stain",
+	
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_wood_lac" : "Lacquer Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_wood_lac" : "Lacquer Wood Stain",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_wood_lac" : "Lacquer Wood Stain",
 	
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_bl" : "Black Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_wo" : "Worn Bakelite",

@@ -6,20 +6,29 @@
 	
 	<!-- POLYMERS -->
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_pl"/>
 			<wpn_fps_ass_heffy_545_ufg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_545_st_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
 			<wpn_fps_ass_heffy_762_lfg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_pl"/>
 			<wpn_fps_ass_heffy_762_ufg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_762_st_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
 			<wpn_fps_ass_heffy_556_lfg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_pl"/>
 			<wpn_fps_ass_heffy_556_ufg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_556_pg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
+		</override>
+	<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_st_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
+			<wpn_fps_ass_heffy_762_st_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
 			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
 		</override>
 		<weapons>
@@ -30,20 +39,59 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_pg_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="grip_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
+			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
+			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_gr"/>
 			<wpn_fps_ass_heffy_545_ufg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_545_st_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
 			<wpn_fps_ass_heffy_762_lfg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_gr"/>
 			<wpn_fps_ass_heffy_762_ufg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_762_st_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
 			<wpn_fps_ass_heffy_556_lfg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_lfg_ak74m_gr"/>
 			<wpn_fps_ass_heffy_556_ufg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_ufg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_556_pg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
+		</override>
+	<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_st_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
+			<wpn_fps_ass_heffy_762_st_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
+			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+			<value_node value="wpn_fps_ass_heffy_556"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_pg_poly_gr" based_on="wpn_fps_upg_a_custom_free" type="grip_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
+			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
 			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
 		</override>
 		<weapons>
@@ -56,19 +104,29 @@
 	
 	<!-- WOODS -->
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_red" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_wood_red" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_red"/>
 			<wpn_fps_ass_heffy_545_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_red"/>
-			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_red"/>
 			<wpn_fps_ass_heffy_all_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_red"/>
 			<wpn_fps_ass_heffy_all_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_red"/>
-			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_red"/>
 			<wpn_fps_ass_heffy_762_lfg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_lfg_akm_red"/>
 			<wpn_fps_ass_heffy_762_ufg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_ufg_akm_red"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_wood_red" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_red"/>
+			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_red"/>
 			<wpn_fps_ass_heffy_762_st_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_st_akm_red"/>
-			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_red"/>
 			<wpn_fps_ass_heffy_762_st_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_red"/>
 		</override>
 		<weapons>
@@ -78,19 +136,41 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_pg_wood_red" based_on="wpn_fps_upg_a_custom_free" type="grip_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_red"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_ora"/>
 			<wpn_fps_ass_heffy_545_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_ora"/>
-			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_ora"/>
 			<wpn_fps_ass_heffy_all_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_ora"/>
 			<wpn_fps_ass_heffy_all_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_ora"/>
-			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_ora"/>
 			<wpn_fps_ass_heffy_762_lfg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_lfg_akm_ora"/>
 			<wpn_fps_ass_heffy_762_ufg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_ufg_akm_ora"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_ora"/>
+			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_ora"/>
 			<wpn_fps_ass_heffy_762_st_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_st_akm_ora"/>
-			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_ora"/>
 			<wpn_fps_ass_heffy_762_st_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_ora"/>
 		</override>
 		<weapons>
@@ -100,20 +180,54 @@
 		<pcs/>
 	</WeaponMod>
 	
-	<WeaponMod id="wpn_fps_ass_heffy_all_fc_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="furn_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_pg_wood_ora" based_on="wpn_fps_upg_a_custom_free" type="grip_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_ora"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats damage="0"/>
 		<override>
 			<wpn_fps_ass_heffy_545_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_lac"/>
 			<wpn_fps_ass_heffy_545_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_lac"/>
-			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_lac"/>
 			<wpn_fps_ass_heffy_all_lfg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_lfg_ak74_lac"/>
 			<wpn_fps_ass_heffy_all_ufg_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_ufg_ak74_lac"/>
-			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_lac"/>
 			<wpn_fps_ass_heffy_762_lfg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_lfg_akm_lac"/>
 			<wpn_fps_ass_heffy_762_ufg_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_ufg_akm_lac"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_545_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_lac"/>
+			<wpn_fps_ass_heffy_all_st_ak74 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74_pts/wpn_fps_ass_heffy_545_st_ak74_lac"/>
 			<wpn_fps_ass_heffy_762_st_akm unit="units/mods/weapons/wpn_fps_ass_heffy_762_akm_pts/wpn_fps_ass_heffy_762_st_akm_lac"/>
-			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_lac"/>
 			<wpn_fps_ass_heffy_762_st_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_lac"/>
+		</override>
+		<weapons>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_pg_wood_lac" based_on="wpn_fps_upg_a_custom_free" type="grip_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_762_pg_amd63 unit="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_pg_amd63_lac"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
