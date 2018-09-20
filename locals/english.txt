@@ -31,6 +31,9 @@
 	"bm_wp_wpn_fps_ass_heffy_all_fc_pg_wood_lac" : "Lacquer Wood Stain",
 	"bm_wp_wpn_fps_ass_heffy_all_fc_st_wood_lac" : "Lacquer Wood Stain",
 	
+	"bm_wp_wpn_fps_ass_heffy_all_fc_fg_wood_br"  : "Walnut Wood",
+	"bm_wp_wpn_fps_ass_heffy_all_fc_st_wood_br"  : "Walnut Wood",
+	
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_bl" : "Black Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_wo" : "Worn Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_pl" : "Plum Bakelite",

@@ -4,6 +4,8 @@
 	
 	<GlobalValue id="heffy_color" color="Color(0.8, 0.2, 0.8)"/>
 	
+	<AssetUpdates id="23413" version="1.0" provider="modworkshop"/>
+	
 	<!-- POLYMERS -->
 	
 	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_poly_pl" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
@@ -232,6 +234,32 @@
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
 			<value_node value="wpn_fps_ass_heffy_762"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_fg_wood_br" based_on="wpn_fps_upg_a_custom_free" type="foregrip_zcolor" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_762_lfg_vepr unit="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_lfg_vepr_br"/>
+		</override>
+		<weapons>
+		<!--<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>-->
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_heffy_all_fc_st_wood_br" based_on="wpn_fps_upg_a_custom_free" type="stock_color" internal_part="false" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats damage="0"/>
+		<override>
+			<wpn_fps_ass_heffy_762_st_vepr unit="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_st_vepr_br"/>
+		</override>
+		<weapons>
+		<!--<value_node value="wpn_fps_ass_heffy_556"/>
+			<value_node value="wpn_fps_ass_heffy_545"/>
+			<value_node value="wpn_fps_ass_heffy_762"/>-->
 		</weapons>
 		<pcs/>
 	</WeaponMod>
@@ -618,6 +646,23 @@
 		<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_lac"/>
 		<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_lac"/>
 		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_amd63_pts/wpn_fps_ass_heffy_762_st_amd63_lac"/>
+		
+		<!-- VEPR -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/vepr_br_furniture_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/vepr_br_furniture"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/vepr_br_furniture_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_lfg_vepr_br"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_lfg_vepr_br"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_lfg_vepr_br"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_lfg_vepr_br"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_st_vepr_br"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_st_vepr_br"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_st_vepr_br"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_heffy_762_vepr_pts/wpn_fps_ass_heffy_762_st_vepr_br"/>
 
 		<!-- MAGS -->
 		
