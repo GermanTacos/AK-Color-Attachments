@@ -4,7 +4,7 @@
 	
 	<GlobalValue id="heffy_color" color="Color(0.8, 0.2, 0.8)"/>
 	
-	<AssetUpdates id="23413" version="1.0" provider="modworkshop"/>
+	<AssetUpdates id="23413" version="1.0_01" provider="modworkshop"/>
 	
 	<!-- POLYMERS -->
 	
@@ -46,7 +46,7 @@
 		<override>
 			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
 			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
-			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_pl"/>
+			<wpn_fps_ass_heffy_556_pg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_pl"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -94,7 +94,7 @@
 		<override>
 			<wpn_fps_ass_heffy_545_pg_ak74m unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
 			<wpn_fps_ass_heffy_762_pg_ak103 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
-			<wpn_fps_ass_heffy_556_st_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_st_ak74m_gr"/>
+			<wpn_fps_ass_heffy_556_pg_ak101 unit="units/mods/weapons/wpn_fps_ass_heffy_545_ak74m_pts/wpn_fps_ass_heffy_545_pg_ak74m_gr"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
