@@ -1,0 +1,7 @@
+-[X] Add support for worn AKM furniture
+-[X] Add support for wooden MPI furniture
+-[X] Add support for M70 furniture
+-[ ] Add support for AKMSU / AKS-74U furniture 
+-[X] Add support for AK-47 furniture
+-[X] Add support for VEPR furniture
+-[ ] Add support for M92 furniture
