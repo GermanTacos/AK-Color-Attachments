@@ -1,10 +1,10 @@
-<table name="AK Color Finishes" image="guis/akcolor" color="Color(0.8, 0.2, 0.8)">
+<table name="AK Color Attachments" image="guis/akcolor" color="Color(0.8, 0.2, 0.8)">
 
 	<Localization directory="locals" default="english.txt"/>
 	
 	<GlobalValue id="heffy_color" color="Color(0.8, 0.2, 0.8)"/>
 	
-	<AssetUpdates id="23413" version="1.0_01" provider="modworkshop"/>
+	<AssetUpdates id="23413" version="1.1" provider="modworkshop"/>
 	
 	<!-- POLYMERS -->
 	
