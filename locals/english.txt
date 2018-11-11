@@ -2,8 +2,8 @@
 
 	"bm_menu_furn_color"             : "Furniture Color",
 	"bm_menu_furn_color_plural"      : "Furniture Colors",
-	"bm_menu_foregrip_zcolor"        : "Foregrip Color",
-	"bm_menu_foregrip_zcolor_plural" : "Foregrip Colors",
+	"bm_menu_foregrip_zcolor"        : "Handguard Color",
+	"bm_menu_foregrip_zcolor_plural" : "Handguard Colors",
 	"bm_menu_grip_color"             : "Grip Color",
 	"bm_menu_grip_color_plural"      : "Grip Colors",
 	"bm_menu_stock_color"            : "Stock Color",
