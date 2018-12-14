@@ -45,8 +45,8 @@
 	
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_bl" : "Black Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_wo" : "Worn Bakelite",
-	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_pl" : "Plum Bakelite",
-	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_gr" : "Green Bakelite",
+	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_pl" : "Plum Bakelite/Polymer",
+	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_gr" : "Green Bakelite/Polymer",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_fb" : "Firebrick Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_fi" : "Refinished Bakelite",
 	"bm_wp_wpn_fps_ass_heffy_all_mc_bake_or" : "Original Bakelite"
