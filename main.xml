@@ -443,6 +443,7 @@
 			<wpn_fps_ass_heffy_545_m_bake_45 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_pl_45"/>
 			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_pl_30"/>
 			<wpn_fps_ass_heffy_939_m_bake_20 unit="units/mods/weapons/wpn_fps_ass_heffy_939_mag_pts/wpn_fps_ass_heffy_939_m_bake_pl_20"/>
+			<wpn_fps_sho_heffy_12g_m_poly_5  unit="units/mods/weapons/wpn_fps_sho_heffy_12g_mag_pts/wpn_fps_sho_heffy_12g_m_poly_pl_5"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
@@ -464,6 +465,7 @@
 			<wpn_fps_ass_heffy_545_m_bake_45 unit="units/mods/weapons/wpn_fps_ass_heffy_545_mag_pts/wpn_fps_ass_heffy_545_m_bake_gr_45"/>
 			<wpn_fps_ass_heffy_556_m_bake_30 unit="units/mods/weapons/wpn_fps_ass_heffy_556_mag_pts/wpn_fps_ass_heffy_556_m_bake_gr_30"/>
 			<wpn_fps_ass_heffy_939_m_bake_20 unit="units/mods/weapons/wpn_fps_ass_heffy_939_mag_pts/wpn_fps_ass_heffy_939_m_bake_gr_20"/>
+			<wpn_fps_sho_heffy_12g_m_poly_5  unit="units/mods/weapons/wpn_fps_sho_heffy_12g_mag_pts/wpn_fps_sho_heffy_12g_m_poly_gr_5"/>
 		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_heffy_545"/>
